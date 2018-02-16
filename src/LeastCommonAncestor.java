@@ -1,4 +1,5 @@
 import java.io.StringReader;
+import java.util.Collections;
 import java.util.Set;
 import java.io.*;
 import org.jgrapht.graph.DefaultEdge;
@@ -52,7 +53,8 @@ public class LeastCommonAncestor {
         } catch (Exception e) {
                 e.getMessage();
         }
-		return null;
+		Set<String> Ans = Collections.emptySet();
+		return Ans;
 	}
 	public static void main(String args[]){
         
